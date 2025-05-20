@@ -5,6 +5,11 @@
 <?import java.lang.*?>
 <?import javafx.scene.layout.*?>
 
-<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="cs112.lab09.controllers.MapController">
-
+<Pane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="cs112.lab09.controllers.MapController">
+    <children>
+        <VBox alignment="CENTER" spacing="10.0" layoutX="50.0" layoutY="30.0">
+            <Label text="Map of Red Summer Events" style="-fx-font-size: 20px; -fx-font-weight: bold;" />
+            <ImageView fx:id="mapImageView" fitHeight="300.0" fitWidth="500.0" />
+        </VBox>
+    </children>
 </Pane>

@@ -6,6 +6,10 @@
 <?import java.lang.*?>
 <?import javafx.scene.layout.*?>
 
-<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="506.0" prefWidth="474.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="cs112.lab09.controllers.MainController">
-
+<VBox prefHeight="506.0" prefWidth="474.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="cs112.lab09.controllers.MainController" alignment="CENTER" spacing="15.0">
+    <children>
+        <Label text="Red Summer 1919" style="-fx-font-size: 24px; -fx-font-weight: bold;" />
+        <Button fx:id="mapButton" text="View Map" />
+        <Button fx:id="citiesButton" text="View Cities" />
+    </children>
 </VBox>
